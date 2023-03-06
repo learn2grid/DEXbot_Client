@@ -5,7 +5,7 @@ go 1.17
 require (
 	github.com/briandowns/spinner v1.16.0
 	github.com/btcsuite/btcd v0.21.0-beta
-	github.com/ethereum/go-ethereum v1.10.11
+	github.com/ethereum/go-ethereum v1.10.22
 	github.com/fatih/color v1.13.0
 	github.com/mitchellh/mapstructure v1.4.3 //indirect
 	github.com/pterm/pterm v0.12.33
@@ -32,7 +32,12 @@ require (
 	github.com/valyala/bytebufferpool v1.0.0 // indirect
 	github.com/valyala/fasthttp v1.4.0 // indirect
 	github.com/xo/terminfo v0.0.0-20210125001918-ca9a967f8778 // indirect
-	golang.org/x/net v0.0.0-20210805182204-aaa1db679c0d // indirect
-	golang.org/x/sys v0.0.0-20211105183446-c75c47738b0c // indirect
+	golang.org/x/net v0.0.0-20220607020251-c690dde0001d // indirect
+	golang.org/x/sys v0.0.0-20220520151302-bc2c85ada10a // indirect
 	gopkg.in/cenkalti/backoff.v1 v1.1.0 // indirect
+)
+
+require (
+	github.com/btcsuite/btcd/btcec/v2 v2.2.0 // indirect
+	github.com/decred/dcrd/dcrec/secp256k1/v4 v4.0.1 // indirect
 )
